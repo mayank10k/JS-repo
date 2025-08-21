@@ -37,6 +37,7 @@ console.log(url.replaceAll("mayank","manku"));   // will replace all the occuree
 
 console.log(url);  // original string will remain same --> because strings are mutable
 
+//it return true if it includes "mayank" else false 
 console.log(url.includes("mayank"));   // return -->ture, if present  ..  --> false ,if not present
 
 console.log(url.split('/'));   // seperate the string on the basis of '/'  
