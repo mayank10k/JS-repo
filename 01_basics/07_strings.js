@@ -3,7 +3,7 @@ const num=69;
 
 // console.log(name + num);     --> don't use this method
 
-// string inter-polation
+// string inter-polation   ---> use backticks (``) --> modern use
 console.log(`hello my name is ${name} and my roll no. is ${num}`) // --->use this instead
 
 //one more type to intialise a string
@@ -39,5 +39,4 @@ console.log(url);  // original string will remain same --> because strings are m
 
 console.log(url.includes("mayank"));   // return -->ture, if present  ..  --> false ,if not present
 
-
-
+console.log(url.split('/'));   // seperate the string on the basis of '/'  
